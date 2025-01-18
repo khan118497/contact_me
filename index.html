@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="https://formsubmit.co/anicetndayizeye2020@gmail.com" method="POST">
+        <h2>Send Me a Message</h2>
+        <hr>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <!-- Champ d'importation de fichier -->
+        <input type="file" name="file" accept="*/*"> <!-- Accepte tous les types de fichiers -->
+        <button type="submit">Submit</button>
+
+    </form>
+    <input type="hidden" name="_next" value="https://votre-site.com/merci.html">
+    <input type="hidden" name="_autoresponse" value="Merci pour votre message ! Nous vous contacterons bientôt.">
+</body>
+
+</html>
